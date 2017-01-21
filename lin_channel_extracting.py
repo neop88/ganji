@@ -11,8 +11,6 @@ for channel in soup.select('dt a'):
     channel = 'http://bj.ganji.com' + channel.get('href')
     print(channel)
 
-
-
 channel_list = """
     http://bj.ganji.com/shouji/
     http://bj.ganji.com/shoujihaoma/
