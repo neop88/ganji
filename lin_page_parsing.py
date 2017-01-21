@@ -38,7 +38,7 @@ def get_item_info(url):
     # else:
     #     print('old')
     # titles = soup.select('#wrapper > div.content.clearfix > div.leftBox > div.col-cont.title-box > h1')
-    # prices = soup.select('f22.fc-orange.f-type')
+    prices = soup.select('f22.fc-orange.f-type')
     print(prices)
     # districts = soup.select('#wrapper > div.content.clearfix > div.leftBox > div > div > ul > li')
     # for title, price, district in zip(titles, prices, districts):
